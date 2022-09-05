@@ -129,7 +129,7 @@ Assuming you already have an account on GitHub (or Bath GitHub) and you've set u
 -   **1^st^ time only:**
     -   Set up `gh-pages` branch
 
-        ![](github_pages.png){width="960"}
+        ![](images/github_pages.png){width="961"}
 
     -   Clone this branch into a new folder:
 
@@ -162,7 +162,7 @@ assuming your bookdown book is in a folder called `_book`
 
 -   Set up GitHub pages to generate automatically from the `docs` folder
 
-    ![](github_docs.png){width="960"}
+    ![](images/github_docs.png){width="960"}
 
 . . .
 

@@ -1,5 +1,5 @@
 project:
   title: "quarto_bdad"
-
+  output-dir: docs
 editor: visual
 
