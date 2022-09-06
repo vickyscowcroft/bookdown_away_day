@@ -18,6 +18,8 @@ tbl-cap-location: bottom
 code-block-background: true
 ---
 
+
+
 ## Overview
 
 -   What is GitHub?
@@ -169,6 +171,14 @@ assuming your bookdown book is in a folder called `_book`
 -   Rename/copy your `_book` folder to `docs`
 -   `git add`, `commit`, and `push` the main repository as normal.
 
+## GitHub hosted examples {.center}
+
+ - [My guide to lecture notes with bookdown](https://vickyscowcroft.github.io/bookdown_lecture_notes_guide/)
+   - Living document - suggestions/edits welcome!
+
+ - [PH40112 Relativistic Cosmology - 2019/20](https://vickyscowcroft.github.io/PH40112_rmd/)
+   - My first attempt at bookdown lecture notes (during Covid...)
+
 ## How to publish on Moodle
 
 1.  Compress your `_book` file to `_book.zip`
@@ -178,6 +188,7 @@ assuming your bookdown book is in a folder called `_book`
 
 -   Should now see a link to your document on Moodle.
 
+- [PH40112 Relativistic Cosmology 2021/22](https://moodle.bath.ac.uk/course/view.php?id=58189&section=5): This is **not** externally accessible. 
 . . .
 
 ::: commentsub
@@ -196,6 +207,7 @@ What's annoying about this?
 . . .
 
 -   Using GitHub is easier than you may think
+- [https://github.com/vickyscowcroft](https://github.com/vickyscowcroft)
 
 . . .
 
