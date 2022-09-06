@@ -430,7 +430,7 @@
 <p><sup>1</sup> I <em>think</em> you can roll-back to the latest Moodle back-up??</p>
 <p><sup>2</sup> Incremental changes are <em>usually</em> easy on GitHub, until something goes wrong. Then <a href="https://stackoverflow.com/">Stack Overflow</a> is your best bet.</p>
 </div></aside></section>
-<section id="setting-up" class="slide level2">
+<section id="setting-up" class="slide level2 scrollable">
 <h2>Setting up</h2>
 <p>Assuming you already have an account on GitHub (or Bath GitHub) and you’ve set up your credentials:</p>
 <table>
@@ -446,17 +446,25 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>Create repository</td>
+<td><strong>1<sup>st</sup> time only:</strong> Create repository</td>
 <td><code>git init</code></td>
 </tr>
 <tr class="even">
+<td><strong>To get the most up to date remote version</strong>: Pull the remote repository to your computer</td>
+<td><code>git pull</code></td>
+</tr>
+<tr class="odd">
 <td>Create/edit content</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Add files you want to commit</td>
 <td><p>All files with changes: <code>git add -A</code></p>
 <p>Individual files: <code>git add $filename</code></p></td>
+</tr>
+<tr class="odd">
+<td>Check what’s going to change</td>
+<td><code>git status</code></td>
 </tr>
 <tr class="even">
 <td>Commit your files to be uploaded and say what your changes are</td>
@@ -563,7 +571,7 @@ git push -q origin gh-pages</code></pre>
 <div class="fragment">
 <ul>
 <li>Using GitHub is easier than you may think</li>
-<li><a href="https://github.com/vickyscowcroft">https://github.com/vickyscowcroft</a></li>
+<li><a href="https://github.com/vickyscowcroft" class="uri">https://github.com/vickyscowcroft</a></li>
 </ul>
 </div>
 <div class="fragment">
@@ -762,7 +770,7 @@ git push -q origin gh-pages</code></pre>
         height: 700,
 
         // Factor of the display size that should remain empty around the content
-        margin: 0.1,
+        margin: 0.15,
 
         math: {
           mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',

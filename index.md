@@ -9,7 +9,7 @@ format:
     theme:
       - default
       - robot-lung.scss
-    #margin: 0.1
+    margin: 0.15
     center: false
 #include-in-header:
 #  file: border.html
@@ -99,25 +99,29 @@ Intro to GitHub pages [here](https://github.com/skills/github-pages)
 
 ![](https://media.giphy.com/media/cFkiFMDg3iFoI/giphy.gif){.absolute bottom="100" left="300" width="377"}
 
-## Setting up
+## Setting up  {.scrollable}
 
 Assuming you already have an account on GitHub (or Bath GitHub) and you've set up your credentials:
 
-+----------------------------------------------------------------+---------------------------------------+
-| Step                                                           | Command                               |
-+================================================================+=======================================+
-| Create repository                                              | `git init`                            |
-+----------------------------------------------------------------+---------------------------------------+
-| Create/edit content                                            |                                       |
-+----------------------------------------------------------------+---------------------------------------+
-| Add files you want to commit                                   | All files with changes: `git add -A`  |
-|                                                                |                                       |
-|                                                                | Individual files: `git add $filename` |
-+----------------------------------------------------------------+---------------------------------------+
-| Commit your files to be uploaded and say what your changes are | `git commit -m "your message here"`   |
-+----------------------------------------------------------------+---------------------------------------+
-| Push files to GitHub                                           | `git push`                            |
-+----------------------------------------------------------------+---------------------------------------+
++---------------------------------------------------------------------------------------------+---------------------------------------+
+| Step                                                                                        | Command                               |
++=============================================================================================+=======================================+
+| **1^st^ time only:** Create repository                                                      | `git init`                            |
++---------------------------------------------------------------------------------------------+---------------------------------------+
+| **To get the most up to date remote version**: Pull the remote repository to your computer  | `git pull`                            |
++---------------------------------------------------------------------------------------------+---------------------------------------+
+| Create/edit content                                                                         |                                       |
++---------------------------------------------------------------------------------------------+---------------------------------------+
+| Add files you want to commit                                                                | All files with changes: `git add -A`  |
+|                                                                                             |                                       |
+|                                                                                             | Individual files: `git add $filename` |
++---------------------------------------------------------------------------------------------+---------------------------------------+
+| Check what's going to change                                                                | `git status`                          |
++---------------------------------------------------------------------------------------------+---------------------------------------+
+| Commit your files to be uploaded and say what your changes are                              | `git commit -m "your message here"`   |
++---------------------------------------------------------------------------------------------+---------------------------------------+
+| Push files to GitHub                                                                        | `git push`                            |
++---------------------------------------------------------------------------------------------+---------------------------------------+
 
 : { #tab-gh-steps tbl-colwidths="\[40,60\]"}
 
@@ -173,11 +177,10 @@ assuming your bookdown book is in a folder called `_book`
 
 ## GitHub hosted examples {.center}
 
- - [My guide to lecture notes with bookdown](https://vickyscowcroft.github.io/bookdown_lecture_notes_guide/)
-   - Living document - suggestions/edits welcome!
-
- - [PH40112 Relativistic Cosmology - 2019/20](https://vickyscowcroft.github.io/PH40112_rmd/)
-   - My first attempt at bookdown lecture notes (during Covid...)
+-   [My guide to lecture notes with bookdown](https://vickyscowcroft.github.io/bookdown_lecture_notes_guide/)
+    -   Living document - suggestions/edits welcome!
+-   [PH40112 Relativistic Cosmology - 2019/20](https://vickyscowcroft.github.io/PH40112_rmd/)
+    -   My first attempt at bookdown lecture notes (during Covid...)
 
 ## How to publish on Moodle
 
@@ -188,8 +191,7 @@ assuming your bookdown book is in a folder called `_book`
 
 -   Should now see a link to your document on Moodle.
 
-- [PH40112 Relativistic Cosmology 2021/22](https://moodle.bath.ac.uk/course/view.php?id=58189&section=5): This is **not** externally accessible. 
-. . .
+-   [PH40112 Relativistic Cosmology 2021/22](https://moodle.bath.ac.uk/course/view.php?id=58189&section=5): This is **not** externally accessible. . . .
 
 ::: commentsub
 What's annoying about this?
@@ -207,7 +209,7 @@ What's annoying about this?
 . . .
 
 -   Using GitHub is easier than you may think
-- [https://github.com/vickyscowcroft](https://github.com/vickyscowcroft)
+-   <https://github.com/vickyscowcroft>
 
 . . .
 
